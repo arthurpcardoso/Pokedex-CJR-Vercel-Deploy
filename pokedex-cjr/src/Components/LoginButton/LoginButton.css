@@ -1,0 +1,21 @@
+.login-button-navbar{
+    color: rgb(0, 120, 192);
+    background-color: transparent;
+    border: rgb(0, 96, 144) solid 2px;
+    border-radius: 5px;
+    font-size: x-large;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.login-button-navbar:hover {
+    background-image: linear-gradient(rgb(0, 96, 144), rgb(0, 96, 192));
+    cursor: pointer;
+    color: white;
+}
+
+.background-login-form{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}

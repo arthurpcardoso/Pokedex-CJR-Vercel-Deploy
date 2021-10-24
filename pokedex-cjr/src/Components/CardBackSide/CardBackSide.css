@@ -1,0 +1,61 @@
+#card-back-side{
+    width: 252px;  /* original: 6.3cm*/
+    height: 352px; /* original: 8.8cm*/
+    border: solid rgba(25,38,83,255) 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+    background-color: white;
+    font-size: xx-large;
+    font-weight: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(./background.png);
+    background-size: 282px 382px;
+    background-position: center;
+    color: white;
+    cursor: pointer;
+}
+
+.id-kind-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+
+.weight-height-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: -20px 20px 0 20px;
+}
+
+.weight-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.height-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kind-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.name{
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.scale-label{
+    font-size: x-large;
+}
+
